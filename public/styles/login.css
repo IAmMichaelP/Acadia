@@ -1,0 +1,166 @@
+body {
+    font-family: Arial;
+    background-color: #E5DBC2;
+    margin: 0px;
+}
+
+.website-banner {
+    background-color: #305050;
+    display: flex;
+    box-sizing: content-box;
+    position: relative;
+    height: auto;
+}
+
+.icon-banner {
+    display: inline-block;
+    margin: 0.5% 0.5% 0.5% 5%;
+}
+
+.help-button {
+    text-decoration: none;
+    color: #E5DBC2;
+    font-size: 25px;
+    position: absolute;
+    right: 5%;
+    margin-top: 2.3%;
+}
+
+
+.ad-banner {
+    display: flex;
+    object-fit: stretch;
+    height: 100%;
+    width: 100%;
+}
+
+.login-banner, .signup-banner {
+    background-color: #305050;
+
+    width: 35%;
+
+    text-align: center;
+    box-sizing: content-box;
+    display: flex;
+    overflow: hidden;
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.icons {
+    object-fit:cover;
+    width: 10%;
+    height: 10%;
+    border-radius: 5%;
+    margin-right: 2%;
+    margin-left: 10%;
+}
+
+.facebook-button, .google-button {
+    display: flex;
+}
+
+.login-button, .input-field,
+.facebook-button, .google-button,
+.manual-signup-button, .signup-button {
+
+    background-color:#E5DBC2;
+    color:#305050;
+    width: 70%;
+    align-items: center;
+    margin: 5% 15% 0% 15%;
+    box-sizing: border-box;
+    border: none;
+    font-size: 20px;
+    object-fit: contain;
+    padding: 3% 2%; 
+}
+
+.login-button, .facebook-button,
+.google-button, .manual-signup-button,
+.signup-button {
+
+    cursor: pointer;
+}
+
+.facebook-button {
+    margin-top: 15%;
+}
+
+.manual-signup-button {
+    margin: 0 0 10% 0;
+}
+
+.link-element, .word-element,
+.eula-element {
+    text-decoration: none;
+    color:#E5DBC2;
+    font-size: 20px;
+    
+}
+
+.username-field {
+    margin-top: 15%;
+}
+
+em {
+    text-decoration: none;
+    color: #D7A40B;
+    cursor: pointer;
+
+}
+
+.word-element {
+    opacity: 0.6;
+}
+
+.forgot-password, .eula-element {
+    font-size: 16px !important;
+    margin: 2% 15%;
+}
+
+.forgot-password {
+    display: flex;
+}
+
+.eula-element {
+    display: inline-block !important;
+}
+
+.no-account, .with-account,
+.sign-up {
+    margin: 0 2px;
+}
+
+.portal-subfooter {
+    display: inline-flex;
+    align-items: center;
+    margin: 5% 0 15% 0;
+}
+
+.footer { 
+    background-color: #305050;
+    color:#E5DBC2;
+    padding: 2%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.hidden-element {
+    display: none;
+}
+
+.main-container{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    align-items: center;
+}
+
+.ad-container {
+    height: 25%;
+    width: 50%;
+}
