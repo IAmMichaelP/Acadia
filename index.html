@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Acadia</title>
+        <link rel="stylesheet" href="styles/home.css">
+        <link rel="website icon" type="image/png" href="images/website-logo.png">
+    </head>
+    <body>
+        <div class="website-banner">
+            <div class="navigation-container">
+                <a class="navigation" href="help.html">Help</a>
+                <a class="navigation" href="sell.html">Sell</a>
+                <a class="navigation" href="login.html">Login</a>
+                <a class="navigation signup" href="signup.html">Signup</a>
+            </div>
+            
+            <a href="index.html"><img class="logo" src="images/logo.png"></a>
+            <div class="search-toggle">
+                <input class="search-input" type="search" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-logo" src="images/search.png">
+                </button>
+            </div>
+
+            <!-- <button class="js-cart-button cart-button">
+                <img src="images/cart.png">
+            </button> -->
+            <a href="cart.html"><img class='js-cart-button cart-button' src="images/cart.png"></a>
+        </div>
+        
+        <img class="website-ad-banners" src="images/banner.jpg">
+        <div class="sort-container">
+            <p class="sort-element" id="sort-by">Sort by</p>
+            <button class="sort-element js-popular-button">Popular</button>
+            <button class="sort-element js-latest-button">Latest</button>
+            <button class="sort-element js-top-sale-button">Top Sales</button>
+            <label for="Category"></label>
+                <select name="categories" class="sort-element">
+                    <!-- <option>Category</option> -->
+                    <option disabled selected value="">Select category</option>
+                    <option value="Health and Wellness">Health and Wellness</option>
+                    <option value="fashion">fashion</option>
+                    <option value="electronics">electronics</option>
+                </select>
+            <label for="Category"></label>
+                <select name="categories" class="sort-element js-category-menu">
+                    <option value="Price" disabled selected>Price</option>
+                    <option value="Low to high">Low to high</option>
+                    <option value="High to low">High to low</option>
+                </select>
+
+           
+            <button class="sort-element arrow-button" id="next-button">
+                Next
+                <!-- <img src=""> -->
+            </button>
+            <button class="sort-element arrow-button" id="prev-button">
+                Prev
+                <!-- <img src=""> -->
+            </button>
+            
+           
+        </div>
+       
+        
+        <div class="products-container">
+            
+        </div>
+        
+
+        <script src="scripts/index.js"></script>
+
+    </body>
+</html>
